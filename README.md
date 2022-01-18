@@ -1,6 +1,4 @@
-# Simpe rust web app
-
-This project brings you up and running with a minimalistic setup to build any applications with TypeScript + Rust Wasm. It also supports Tailwind CSS.
+# Lobby
 
 ## Commands
 ```
