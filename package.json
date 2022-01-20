@@ -10,13 +10,17 @@
         "build:release": "npm run build:rust:release && webpack --config webpack.config.js",
         "build:rust": "wasm-pack build rust --dev -d ../src/pkg --out-name rust",
         "build:rust:release": "wasm-pack build rust --release -d ../src/pkg --out-name rust",
-        "serve": "npm run build:rust && webpack-dev-server --config webpack-develop.config.js --no-hot --open"
+        "serve": "npm run build:rust && webpack-dev-server --config webpack-develop.config.js --no-hot --open",
+        "lint": "eslint src/**/*.ts"
     },
     "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.10.0",
+        "@typescript-eslint/parser": "^5.10.0",
         "autoprefixer": "^10.4.2",
         "clean-webpack-plugin": "^4.0.0",
         "copy-webpack-plugin": "^10.2.0",
         "css-loader": "^6.5.1",
+        "eslint": "^8.7.0",
         "html-loader": "^3.1.0",
         "html-webpack-plugin": "^5.5.0",
         "mini-css-extract-plugin": "^2.4.7",
