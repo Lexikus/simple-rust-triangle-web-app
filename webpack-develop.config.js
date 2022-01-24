@@ -16,6 +16,10 @@ module.exports = {
         assetModuleFilename: 'public/[name]-[fullhash][ext][query]',
         path: path.resolve(__dirname, "dist")
     },
+    devServer: {
+        watchFiles: ["src/**/*.wasm", "src/**/*.js", "src/**/*.ts"],
+
+    },
     module: {
         rules: [
             {
@@ -130,7 +134,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js"]
+        extensions: [".wasm", ".js", ".ts"]
     },
     experiments: {
         asyncWebAssembly: true
