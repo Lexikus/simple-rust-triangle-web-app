@@ -1,4 +1,4 @@
-# Lobby
+# Simple rust triangle web app
 
 ## Commands
 ```
@@ -25,3 +25,8 @@ npm run build:rust:release
 - Everything inside `src/public` will be moved in `dist/public` when built.
 - Styles (SCSS) belong inside `src/styles`.
 - The `index.html` is the HTML template. Styles and scripts will be attached automatically.
+
+## Features
+- ESlint
+- Tailwind
+- SCSS

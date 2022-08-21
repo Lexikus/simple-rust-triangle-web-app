@@ -1,8 +1,8 @@
 {
-    "name": "simple-rust-web-app",
+    "name": "simple-rust-triangle-web-app",
     "author": "Lexikus",
     "version": "0.1.0",
-    "description": "bootstrap web app project that supports Rust WASM",
+    "description": "bootstrap web app project that supports Rust WASM with ESlint, SCSS and Tailwind",
     "license": "MIT",
     "main": "./src/app.ts",
     "scripts": {

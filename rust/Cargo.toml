@@ -1,5 +1,5 @@
 [package]
-name = "simple-rust-web-app"
+name = "simple-rust-triangle-web-app"
 version = "0.1.0"
 authors = ["Lexikus"]
 edition = "2021"
